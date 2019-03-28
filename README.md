@@ -14,7 +14,9 @@
 </typeAliases>
 
 ```
-
+#### 清单 2、logback.xml
+日志文件
+依赖 logback的jar 包
 
 
 
