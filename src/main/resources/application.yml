@@ -15,3 +15,4 @@ spring:
 mybatis:
   type-aliases-package: com.smartpos.domain
   mapper-locations: classpath:/mybatis/*Mapper.xml
+  mybatis.configLocation: classpath:mybatis-config.xml

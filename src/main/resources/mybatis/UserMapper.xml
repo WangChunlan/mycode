@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.smartpos.mapper.UserMapper">
-    <resultMap id="BaseResultMap" type="com.smartpos.domain.User">
+    <resultMap id="BaseResultMap" type="User">
         <id column="id" jdbcType="BIGINT" property="id" />
         <result column="name" jdbcType="VARCHAR" property="name" />
         <result column="mobile_two" jdbcType="VARCHAR" property="mobileTwo" />
@@ -70,11 +70,11 @@
 
 
     <sql id="Base_Column_List">
-   
+
     id, name, mobile_two, is_deleted
   </sql>
 
-    <select id="selectByExample" parameterType="com.smartpos.domain.UserExample" resultMap="BaseResultMap">
+    <select id="selectByExample" parameterType="UserExample" resultMap="BaseResultMap">
 
         select
         <if test="distinct">
@@ -100,18 +100,18 @@
 
 
     <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
-   
+
     delete from user
     where id = #{id,jdbcType=BIGINT}
   </delete>
-    <delete id="deleteByExample" parameterType="com.smartpos.domain.UserExample">
+    <delete id="deleteByExample" parameterType="UserExample">
 
         delete from user
         <if test="_parameter != null">
             <include refid="Example_Where_Clause" />
         </if>
     </delete>
-    <insert id="insert" parameterType="com.smartpos.domain.User">
+    <insert id="insert" parameterType="User">
 
         <selectKey keyProperty="id" order="BEFORE" resultType="java.lang.Long">
             SELECT LAST_INSERT_ID()
@@ -121,7 +121,7 @@
         values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{mobileTwo,jdbcType=VARCHAR},
         #{isDeleted,jdbcType=BIT})
     </insert>
-    <insert id="insertSelective" parameterType="com.smartpos.domain.User">
+    <insert id="insertSelective" parameterType="User">
 
         <selectKey keyProperty="id" order="BEFORE" resultType="java.lang.Long">
             SELECT LAST_INSERT_ID()
@@ -152,7 +152,7 @@
             </if>
         </trim>
     </insert>
-    <select id="countByExample" parameterType="com.smartpos.domain.UserExample" resultType="java.lang.Long">
+    <select id="countByExample" parameterType="UserExample" resultType="java.lang.Long">
         select count(*) from user
         <if test="_parameter != null">
             <include refid="Example_Where_Clause" />
@@ -190,7 +190,7 @@
             <include refid="Update_By_Example_Where_Clause" />
         </if>
     </update>
-    <update id="updateByPrimaryKeySelective" parameterType="com.smartpos.domain.User">
+    <update id="updateByPrimaryKeySelective" parameterType="User">
 
         update user
         <set>
@@ -206,7 +206,7 @@
         </set>
         where id = #{id,jdbcType=BIGINT}
     </update>
-    <update id="updateByPrimaryKey" parameterType="com.smartpos.domain.User">
+    <update id="updateByPrimaryKey" parameterType="User">
    
     update user
     set name = #{name,jdbcType=VARCHAR},
