@@ -145,7 +145,7 @@ public class ApplicationHandler {
                     field.set(object, buildArrayList(((ParameterizedType) type).getActualTypeArguments()[0], fieldValue, ",", datePattern));
                 }
             } else {
-//                field.set(object, GsonUtils.fromJson(fieldValue, fieldClass));
+                field.set(object, GsonUtils.fromJson(fieldValue, fieldClass));
             }
         }
         return object;
@@ -291,7 +291,7 @@ public class ApplicationHandler {
         } else if (type == String.class) {
             list = buildStringArrayList(fieldValue, separator);
         } else {
-//            list = GsonUtils.jsonToList(fieldValue, (Class<? extends Object>) type, datePattern);
+            list = GsonUtils.jsonToList(fieldValue, (Class<? extends Object>) type, datePattern);
         }
         return list;
     }

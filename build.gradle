@@ -64,8 +64,8 @@ dependencies {
     compile "org.quartz-scheduler:quartz:2.2.1"
     compile "org.quartz-scheduler:quartz-jobs:2.2.1"
 
-//    compile "com.google.code.gson:gson:2.2.4"
-//    compile "com.google.code.gson:gson:2.3"
+    /*compile "com.google.code.gson:gson:2.2.4"
+    compile "com.google.code.gson:gson:2.3"*/
 //    compile group: 'com.google.protobuf', name: 'protobuf-java', version: '2.5.0'
     compile group: 'com.aliyun.openservices', name: 'aliyun-log-logback-appender', version: '0.1.9'
     compile group: 'org.apache.axis', name: 'axis', version: '1.4'
