@@ -1,9 +1,12 @@
 package com.smartpos.util;
 
 
+import javax.validation.ConstraintViolation;
+import javax.validation.Validator;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 
@@ -29,8 +32,7 @@ public class BasicModel {
         }
         return parameterName;
     }
-
-   /* public boolean validate() {
+    public boolean validate() {
         Validator validator = ApplicationHandler.obtainValidator();
         boolean isValidateOk = true;
         if (validator != null) {
@@ -57,5 +59,5 @@ public class BasicModel {
                 }
             }
         }
-    }*/
+    }
 }

@@ -2,7 +2,7 @@ package com.smartpos.util;
 
 
 
-import com.smartpos.controllers.Constants;
+import com.smartpos.controller.Constants;
 
 import java.util.ArrayList;
 import java.util.HashMap;

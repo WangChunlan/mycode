@@ -2,7 +2,7 @@ package com.smartpos.util;
 
 import com.saas.common.util.LogUtil;
 
-import com.smartpos.controllers.Constants;
+import com.smartpos.controller.Constants;
 import com.smartpos.exceptions.CustomException;
 import org.apache.commons.beanutils.ConvertUtils;
 import org.apache.commons.beanutils.converters.BigDecimalConverter;

@@ -1,4 +1,4 @@
-package com.smartpos.controllers;
+package com.smartpos.controller;
 
 import com.smartpos.domain.User;
 import com.smartpos.service.UserService;
