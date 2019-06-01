@@ -9,9 +9,9 @@ import java.util.Date;
 
 
 
-//public class Constants extends com.saas.common.Constants {
-public class Constants  {
-
+public class Constants extends com.saas.common.Constants {
+//public class Constants  {
+    public static final String SERVICE_NAME_OUT = "out";
     //卡类型-母卡
     public static final Integer CARD_TYPE_MASTER = 1;
     //卡类型-授权卡
