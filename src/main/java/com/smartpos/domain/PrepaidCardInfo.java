@@ -1,7 +1,7 @@
 package com.smartpos.domain;
 
 
-import com.smartpos.util.BasicModel;
+import com.smartpos.utils.BasicModel;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

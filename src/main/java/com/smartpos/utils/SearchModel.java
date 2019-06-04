@@ -1,4 +1,4 @@
-package com.smartpos.util;
+package com.smartpos.utils;
 
 //import erp.chain.common.Constants;
 //import org.apache.commons.collections.CollectionUtils;
@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-//import org.springframework.util.CollectionUtils;
+//import org.springframework.utils.CollectionUtils;
 
 public class SearchModel {
     private List<SearchCondition> searchConditions = new ArrayList<SearchCondition>();

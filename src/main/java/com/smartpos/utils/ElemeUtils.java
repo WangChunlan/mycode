@@ -1,4 +1,4 @@
-package com.smartpos.util;
+package com.smartpos.utils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.saas.common.util.CacheUtils;
@@ -17,9 +17,8 @@ import java.util.Map;
 import java.util.TreeMap;
 import java.util.UUID;
 
-/**
- * Created by liuyandong on 2017/5/16.
- */
+
+
 public class ElemeUtils {
     private static ObjectMapper objectMapper = new ObjectMapper();
 

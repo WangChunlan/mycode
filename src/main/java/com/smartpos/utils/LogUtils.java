@@ -1,13 +1,11 @@
-package com.smartpos.util;
+package com.smartpos.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Map;
 
-/**
- * Created by liuyandong on 2018-06-04.
- */
+
 public class LogUtils {
     private static final Logger LOGGER = LoggerFactory.getLogger(LogUtils.class);
 

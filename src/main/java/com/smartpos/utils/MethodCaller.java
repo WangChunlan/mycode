@@ -1,4 +1,4 @@
-package com.smartpos.util;
+package com.smartpos.utils;
 
 
 import saas.api.common.ApiRest;

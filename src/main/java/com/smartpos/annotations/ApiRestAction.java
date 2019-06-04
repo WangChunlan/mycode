@@ -2,7 +2,7 @@ package com.smartpos.annotations;
 
 
 
-import com.smartpos.util.BasicModel;
+import com.smartpos.utils.BasicModel;
 
 import java.lang.annotation.*;
 

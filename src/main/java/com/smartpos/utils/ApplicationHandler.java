@@ -1,4 +1,4 @@
-package com.smartpos.util;
+package com.smartpos.utils;
 
 import com.saas.common.util.LogUtil;
 

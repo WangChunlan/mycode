@@ -1,6 +1,6 @@
 package com.smartpos.domain;
 
-import com.smartpos.util.BaseDomain;
+import com.smartpos.utils.BaseDomain;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

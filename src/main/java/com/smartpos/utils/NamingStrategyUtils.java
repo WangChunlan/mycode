@@ -1,4 +1,4 @@
-package com.smartpos.util;
+package com.smartpos.utils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

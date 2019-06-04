@@ -1,6 +1,6 @@
 package com.smartpos.controller;
 
-import com.smartpos.util.CustomDateUtils;
+import com.smartpos.utils.CustomDateUtils;
 
 
 import java.math.BigDecimal;

@@ -1,8 +1,8 @@
-package mybatis;
+package com.smartpos.mapper;
 
 
-import com.smartpos.util.SearchModel;
-import com.smartpos.util.UpdateModel;
+import com.smartpos.utils.SearchModel;
+import com.smartpos.utils.UpdateModel;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

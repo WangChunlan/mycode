@@ -1,4 +1,4 @@
-package com.smartpos.util;
+package com.smartpos.utils;
 
 
 import com.saas.common.util.PropertyUtils;
@@ -6,9 +6,7 @@ import org.apache.commons.lang.StringUtils;
 
 import java.io.IOException;
 
-/**
- * Created by liuyandong on 2018-08-18.
- */
+
 public class ConfigurationUtils {
     public static String getConfiguration(String configurationKey) throws IOException {
         String configurationValue = PropertyUtils.getDefault(configurationKey);

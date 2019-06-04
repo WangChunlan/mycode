@@ -1,4 +1,4 @@
-package com.smartpos.util;
+package com.smartpos.utils;
 
 
 import org.apache.commons.beanutils.Converter;
@@ -9,20 +9,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- * org.apache.commons.beanutils.Converter
- * 时间转换器
- * object instanceof Date ; object
- *
- * object == null || !(object instanceof String) : null
- *
- * object instanceof String ,object时间格式如下：
- * "MM-dd"、"yyyy-MM"、"yyyy-MM-dd"、"yyyy-MM-dd hh"、
- * "yyyy-MM-dd hh:mm"、"yyyy-MM-dd hh:mm:ss"、
- * "yyyy-MM-dd hh:mm:ss.SSS"
- * 格式不在其中抛出IllegalArgumentException异常
- *
- * hxh*/
 
 
 class ObjectToDateConverter implements Converter {
@@ -81,13 +67,7 @@ class ObjectToDateConverter implements Converter {
         return null;
     }
 
-/*
-*
-     * 格式化日期
-     *
-     * @param dateStr String 字符型日期
-     * @param format  String 格式
-*/
+
 
 
     private Date parseDate(String dateStr, String format) {

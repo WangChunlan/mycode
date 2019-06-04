@@ -2,7 +2,7 @@ package com.smartpos.model.cloudmonopoly;
 
 
 
-import com.smartpos.util.BasicModel;
+import com.smartpos.utils.BasicModel;
 
 import javax.validation.constraints.NotNull;
 import java.math.BigInteger;

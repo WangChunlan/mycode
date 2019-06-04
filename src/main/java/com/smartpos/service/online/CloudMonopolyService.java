@@ -6,7 +6,7 @@ import com.smartpos.model.cloudmonopoly.BatchSaveBranchModel;
 
 import com.smartpos.model.cloudmonopoly.DeleteBranchModel;
 import com.smartpos.model.cloudmonopoly.ListBranchesModel;
-import com.smartpos.util.*;
+import com.smartpos.utils.*;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang.StringUtils;
@@ -19,9 +19,7 @@ import java.math.BigInteger;
 import java.net.URLEncoder;
 import java.util.*;
 
-/**
- * Created by liuyandong on 2019-05-15.
- */
+
 @Service
 public class CloudMonopolyService {
     /**

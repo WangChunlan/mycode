@@ -1,7 +1,7 @@
 package com.smartpos.model.cloudmonopoly;
 
-import com.smartpos.util.ApplicationHandler;
-import com.smartpos.util.BasicModel;
+import com.smartpos.utils.ApplicationHandler;
+import com.smartpos.utils.BasicModel;
 
 import org.apache.commons.lang.ArrayUtils;
 import org.hibernate.validator.constraints.Length;

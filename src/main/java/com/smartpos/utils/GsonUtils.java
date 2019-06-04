@@ -1,4 +1,4 @@
-package com.smartpos.util;
+package com.smartpos.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

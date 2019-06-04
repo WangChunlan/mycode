@@ -1,4 +1,4 @@
-package com.smartpos.util;
+package com.smartpos.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

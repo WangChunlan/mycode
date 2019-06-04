@@ -1,4 +1,4 @@
-package com.smartpos.util;
+package com.smartpos.utils;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
@@ -37,13 +37,13 @@ public class BeanUtils {
         }
     }
 
-    /*
-     *
+  /*   *
      * 对bean属性按字典排序表示为LinkedHashMap（只表示有getter方法的属性）
      *
      * @param bean not null
      * @return 根据属性名称按字典排序构建LinkedHashMap集合
      */
+
 
 
     public static LinkedHashMap<String, Object> propertyToMap(Object bean) {
@@ -80,30 +80,21 @@ public class BeanUtils {
         return orderMap;
     }
 
-    /*
-     *
-     * json字符串转换Java bean
-     */
+
+
 
 
     public static <T> T toBean(String json, Class<T> beanClass) {
         return JSON.parseObject(json, beanClass);
     }
 
-    /*
-     *
-     * json字符串转换JavaBean数组
-     */
 
 
     public static <T> List<T> toList(String json, Class<T> beanClass) {
         return JSON.parseArray(json, beanClass);
     }
 
-    /*
-     *
-     * Object转换成json字符串
-     */
+
 
 
     public static String toJsonStr(Object obj) {
@@ -111,12 +102,7 @@ public class BeanUtils {
     }
     //
 
-    /*
-     *
-     * 调用org.apache.commons.beanutils.BeanUtils的populate方法
-     * 静态代码块已重新设置了类型转换器的默认值为null。
-     * 使用此方法代替以确保转换器的默认值始终为null
-     */
+
 
 
     public static void populate(Object bean, Map<String, ?> properties)

@@ -1,8 +1,8 @@
-package com.smartpos.util;
+package com.smartpos.utils;
 
 
 import com.smartpos.controller.Constants;
-import mybatis.UniversalMapper;
+import com.smartpos.mapper.UniversalMapper;
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.collections.MapUtils;
