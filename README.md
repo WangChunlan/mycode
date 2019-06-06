@@ -1,5 +1,7 @@
 利用gradle、springboot、idea 搭建ssm 框架
 ---
+**本项目主要是研究封装的切面以及mybatis 中通用mapper.xml** 
+
 注意 参考资料1中关于{MyBatis集成之SpringBoot}中application.yml配置jdbc 格式错误
 #### 清单 1、mybatis-config.xml
 关于为实体类取别名，方便在xxMapper.xml 文件中使用。
@@ -24,3 +26,10 @@
 1、[利用SpringBoot、Gradle、IDEA进行SSM框架搭建（基础篇）](http://97uncle.cn/?p=64)<br/>
 2、[spring官网](https://spring.io/projects)<br/>
 3、[Mybatis入门（三）之取别名标签](https://blog.csdn.net/stevensam_lin/article/details/82113006)<br/>
+
+---------------------------------------
+
+
+
+
+
